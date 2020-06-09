@@ -69,10 +69,11 @@ body {
   background: #dedede !important;
 }
 
-/*#variant02:checked + .variant02container .hideVariant02{
-      background: #f4f4f4!important;
-    }
-    #variant03:checked + .variant03container .hideVariant03{
+#variant02:checked+.variant02container .hideVariant02 {
+  background: #f4f4f4 !important;
+}
+
+/*#variant03:checked + .variant03container .hideVariant03{
       background: #dedede!important;
     }
 
