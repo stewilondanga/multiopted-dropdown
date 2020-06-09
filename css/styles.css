@@ -84,11 +84,12 @@ body {
   display: none !important;
 }
 
-/*#variant01type:checked + .button{
-      background: #74C3D6;
-      color:#fff;
-    }
-    #variant02type:checked + .button{
+#variant01type:checked+.button {
+  background: #74C3D6;
+  color: #fff;
+}
+
+/*#variant02type:checked + .button{
       background: #74C3D6;
       color:#fff;
     }
