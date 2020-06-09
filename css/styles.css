@@ -42,10 +42,11 @@ body {
   line-height: 24px;
 }
 
-/*  .content{
-      background: #fff!important;
-    }
-    .show,.showVariant01,.showVariant02,.showVariant03 {
+.content {
+  background: #fff !important;
+}
+
+/*.show,.showVariant01,.showVariant02,.showVariant03 {
       display: block !important;
       max-height: none !important;
       background: #fff;
