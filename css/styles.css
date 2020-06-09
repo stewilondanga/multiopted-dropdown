@@ -73,11 +73,11 @@ body {
   background: #f4f4f4 !important;
 }
 
-/*#variant03:checked + .variant03container .hideVariant03{
-      background: #dedede!important;
-    }
+#variant03:checked+.variant03container .hideVariant03 {
+  background: #dedede !important;
+}
 
-    #allVariations:checked + .allVariationsContainer .show,
+/*#allVariations:checked + .allVariationsContainer .show,
     #variant01:checked + .variant01container .showVariant01,
     #variant02:checked + .variant02container .showVariant02,
     #variant03:checked + .variant03container .showVariant03 {
