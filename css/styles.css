@@ -1,4 +1,4 @@
-body {
+/*body {
   text-align: center;
   font-family: courier;
   background-image: url("../assets/image.jpeg");
@@ -20,6 +20,85 @@ body {
 .my_social a img {
   height: 1.5em;
 }
+
+
+    @font-face {
+      font-family: 'Indie Flower';
+      font-style: normal;
+      font-weight: 400;
+      src: local('Indie Flower'), local('IndieFlower'), url(https://fonts.gstatic.com/s/indieflower/v9/m8JVjfNVeKWVnh3QMuKkFcZVaUuH99GUDg.woff2) format('woff2');
+      unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+    }
+    body{
+      font-family:'Indie Flower', Arial, Sans-serif;
+      font-size: 18px;
+      line-height: 24px;
+    }
+    .button {
+      padding: 1em;
+      width: 600px;
+      text-align: center;
+      border: 1px solid black;
+      margin-bottom: -1px;
+      cursor: pointer;
+    }
+
+    .button .icon{
+      float:right;
+      font-size: 30px;
+      line-height: 24px;
+    }
+    .content{
+      background: #fff!important;
+    }
+    .show,.showVariant01,.showVariant02,.showVariant03 {
+      display: block !important;
+      max-height: none !important;
+      background: #fff;
+    }
+
+    .hide,.hideVariant01,.hideVariant02,.hideVariant03 {
+      display: none;
+    }
+
+    #allVariations:checked + .allVariationsContainer .hide,
+    #variant01:checked + .variant01container .hideVariant01,
+    #variant02:checked + .variant02container .hideVariant02,
+    #variant03:checked + .variant03container .hideVariant03 {
+      display: block !important;
+      max-height: none !important;
+      background: #D8DFED;
+    }
+    #variant01:checked + .variant01container .hideVariant01{
+      background: #dedede!important;
+    }
+    #variant02:checked + .variant02container .hideVariant02{
+      background: #f4f4f4!important;
+    }
+    #variant03:checked + .variant03container .hideVariant03{
+      background: #dedede!important;
+    }
+
+    #allVariations:checked + .allVariationsContainer .show,
+    #variant01:checked + .variant01container .showVariant01,
+    #variant02:checked + .variant02container .showVariant02,
+    #variant03:checked + .variant03container .showVariant03 {
+      display: none !important;
+    }
+
+    #variant01type:checked + .button{
+      background: #74C3D6;
+      color:#fff;
+    }
+    #variant02type:checked + .button{
+      background: #74C3D6;
+      color:#fff;
+    }
+    #variant03type:checked + .button{
+      background: #74C3D6;
+      color:#fff;
+    }
+
 
 .containers {
   width: 520px;
