@@ -56,15 +56,16 @@ body {
   display: none;
 }
 
-/*  #allVariations:checked + .allVariationsContainer .hide,
-    #variant01:checked + .variant01container .hideVariant01,
-    #variant02:checked + .variant02container .hideVariant02,
-    #variant03:checked + .variant03container .hideVariant03 {
-      display: block !important;
-      max-height: none !important;
-      background: #D8DFED;
-    }
-    /*#variant01:checked + .variant01container .hideVariant01{
+#allVariations:checked+.allVariationsContainer .hide,
+#variant01:checked+.variant01container .hideVariant01,
+#variant02:checked+.variant02container .hideVariant02,
+#variant03:checked+.variant03container .hideVariant03 {
+  display: block !important;
+  max-height: none !important;
+  background: #D8DFED;
+}
+
+/*#variant01:checked + .variant01container .hideVariant01{
       background: #dedede!important;
     }
     #variant02:checked + .variant02container .hideVariant02{
