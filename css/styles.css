@@ -27,19 +27,16 @@ body {
   height: 1.5em;
 }
 
-/*
+.button {
+  padding: 1em;
+  width: 600px;
+  text-align: center;
+  border: 1px solid black;
+  margin-bottom: -1px;
+  cursor: pointer;
+}
 
-
-    .button {
-      padding: 1em;
-      width: 600px;
-      text-align: center;
-      border: 1px solid black;
-      margin-bottom: -1px;
-      cursor: pointer;
-    }
-
-    .button .icon{
+/*.button .icon{
       float:right;
       font-size: 30px;
       line-height: 24px;
