@@ -46,13 +46,13 @@ body {
   background: #fff !important;
 }
 
-/*.show,.showVariant01,.showVariant02,.showVariant03 {
-      display: block !important;
-      max-height: none !important;
-      background: #fff;
-    }
+.show, .showVariant01, .showVariant02, .showVariant03 {
+  display: block !important;
+  max-height: none !important;
+  background: #fff;
+}
 
-    .hide,.hideVariant01,.hideVariant02,.hideVariant03 {
+/*.hide,.hideVariant01,.hideVariant02,.hideVariant03 {
       display: none;
     }
 
