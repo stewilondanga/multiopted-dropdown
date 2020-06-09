@@ -77,14 +77,14 @@ body {
   background: #dedede !important;
 }
 
-/*#allVariations:checked + .allVariationsContainer .show,
-    #variant01:checked + .variant01container .showVariant01,
-    #variant02:checked + .variant02container .showVariant02,
-    #variant03:checked + .variant03container .showVariant03 {
-      display: none !important;
-    }
+#allVariations:checked+.allVariationsContainer .show,
+#variant01:checked+.variant01container .showVariant01,
+#variant02:checked+.variant02container .showVariant02,
+#variant03:checked+.variant03container .showVariant03 {
+  display: none !important;
+}
 
-    #variant01type:checked + .button{
+/*#variant01type:checked + .button{
       background: #74C3D6;
       color:#fff;
     }
