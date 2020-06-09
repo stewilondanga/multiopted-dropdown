@@ -36,12 +36,13 @@ body {
   cursor: pointer;
 }
 
-/*.button .icon{
-      float:right;
-      font-size: 30px;
-      line-height: 24px;
-    }
-    .content{
+.button .icon {
+  float: right;
+  font-size: 30px;
+  line-height: 24px;
+}
+
+/*  .content{
       background: #fff!important;
     }
     .show,.showVariant01,.showVariant02,.showVariant03 {
